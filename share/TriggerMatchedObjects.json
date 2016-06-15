@@ -1,0 +1,34 @@
+{
+  "type" : "AdditionalObjDefs",
+  "objDefs" : [
+  {
+    "decorator" : "TriggerMatchedObjects",
+    "electron" : {
+      "ID"  : "MediumLH",
+      "pt"  : 10,
+      "eta" : 2.47
+    },
+    "muon" : {
+      "ID"  : "Medium",
+      "pt"  : 10,
+      "eta" : 2.47
+    },
+    "jet" : {
+      "eta" : 2.8,
+      "doPileup" : false,
+      "doBad" : false
+#      "doPileup" : 0,
+#      "doBad" : 0
+    },
+    "photon" : {
+      "ID"  : "Tight",
+      "pt"  : 10,
+      "eta" : 2.37
+    },
+    "tau" : {
+      "ID"  : "Medium",
+      "pt"  : 20,
+      "eta" : 2.37
+    }
+  }]
+}

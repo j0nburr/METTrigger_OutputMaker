@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE LumiRangeCollection SYSTEM "http://atlas-runquery.cern.ch/LumiRangeCollection.dtd">
+<!--This document is created by GoodRunsListWriter.-->
+<?xml-stylesheet type="text/xsl" href="/atlasdqm/grlview/grl.xsl" title="grlview" ?>
+<LumiRangeCollection>
+<NamedLumiRange>
+<Name>PHYS_StandardGRL_All_Good</Name>
+<Version>2.1</Version>
+<Metadata Name="ARQEquivalentQuery">find run data16_13TeV.periodAllYear and dq PHYS_StandardGRL_All_Good DEFECTS#HEAD g</Metadata>
+<Metadata Name="Query">Period: data16_13TeV.AllYear; Defect: PHYS_StandardGRL_All_Good; Defect tag: HEAD; Ignoring None</Metadata>
+<Metadata Name="RQTSVNVersion">DQDefects-00-02-02</Metadata>
+<Metadata Name="RunList">297447,297730,298591</Metadata>
+<LumiBlockCollection>
+<Run>297447</Run>
+<LBRange Start="402" End="407"/>
+<LBRange Start="409" End="570"/>
+<LBRange Start="572" End="740"/>
+</LumiBlockCollection>
+<LumiBlockCollection>
+<Run>297730</Run>
+<LBRange Start="109" End="220"/>
+<LBRange Start="222" End="224"/>
+<LBRange Start="226" End="304"/>
+<LBRange Start="308" End="355"/>
+<LBRange Start="357" End="504"/>
+<LBRange Start="506" End="531"/>
+</LumiBlockCollection>
+<LumiBlockCollection>
+<Run>298591</Run>
+<LBRange Start="134" End="210"/>
+</LumiBlockCollection>
+</NamedLumiRange>
+</LumiRangeCollection>
